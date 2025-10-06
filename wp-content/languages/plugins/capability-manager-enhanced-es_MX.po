@@ -1,0 +1,491 @@
+# Translation of Plugins - PublishPress Capabilities &#8211; User Role Editor, Access Permissions, User Capabilities, Admin Menus - Stable (latest release) in Spanish (Mexico)
+# This file is distributed under the same license as the Plugins - PublishPress Capabilities &#8211; User Role Editor, Access Permissions, User Capabilities, Admin Menus - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-05-06 22:03:23+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: es_MX\n"
+"Project-Id-Version: Plugins - PublishPress Capabilities &#8211; User Role Editor, Access Permissions, User Capabilities, Admin Menus - Stable (latest release)\n"
+
+#: includes/backup.php:67
+msgid "PublishPress Capabilities automatically creates a backup on installation and whenever you save changes. The initial backup and last %d auto-backups are kept."
+msgstr "PublishPress Capabilities crea automáticamente una copia de seguridad en la instalación y cada vez que se guardan los cambios. Se mantiene la copia de seguridad inicial y las últimas %d copias de seguridad automáticas."
+
+#: includes/backup.php:69
+msgid "A backup created on this screen replaces any previous manual backups, but is never automatically replaced."
+msgstr "Una copia de seguridad creada en esta pantalla reemplaza cualquier copia de seguridad manual anterior, pero nunca es reemplazada automáticamente."
+
+#: includes/backup.php:74
+msgid "Manual Backup"
+msgstr "Copia de seguridad manual"
+
+#: includes/backup.php:88
+msgid "Restore Previous Roles and Capabilities"
+msgstr "Restaurar los perfiles y capacidades anteriores"
+
+#: includes/backup.php:91
+msgid "PublishPress Capabilities automatically creates a backup on installation and whenever you save changes."
+msgstr "PublishPress Capabilities crea automáticamente una copia de seguridad en la instalación y cada vez que se guardan los cambios."
+
+#: includes/backup.php:92
+msgid "On this screen, you can restore an earlier version of your roles and capabilities."
+msgstr "En esta pantalla, puedes restaurar una versión anterior de tus perfiles y capacidades."
+
+#: includes/backup.php:95
+msgid "Available Backups:"
+msgstr "Copias de seguridad disponibles:"
+
+#: includes/backup.php:131
+msgid "Auto-backup of all roles (%s)"
+msgstr "Copia de seguridad automática de todos los perfiles (%s)"
+
+#: includes/backup.php:139
+msgid "Initial backup of all roles"
+msgstr "Copia de seguridad inicial de todos los perfiles"
+
+#: includes/backup.php:148
+msgid "Restore Selected Roles"
+msgstr "Restaurar los perfiles seleccionados"
+
+#: includes/backup.php:157
+msgid "Show changes from current roles only"
+msgstr "Mostrar solo los cambios de los perfiles actuales"
+
+#: includes/backup.php:198
+msgid "(this role will be removed if you restore backup)"
+msgstr "(este perfil será eliminado si restauras la copia de seguridad)"
+
+#: includes/manager.php:1015 includes/manager.php:1049
+#: includes/manager.php:1067
+msgid "You do not have permission to manage capabilities."
+msgstr "No tienes permisos para gestionar capacidades."
+
+#: includes/backup.php:84
+msgid "Last Manual Backup - %s"
+msgstr "Última copia de seguridad manual: %s"
+
+#: includes/backup-handler.php:128
+msgid "Roles and Capabilities restored from selected auto-backup."
+msgstr "Los perfiles y capacidades se han restaurado desde la copia de seguridad automática seleccionada."
+
+#: includes-core/admin-features-promo.php:79
+#: includes-core/admin-menus-promo.php:62 includes-core/CoreAdmin.php:46
+#: includes-core/editor-features-promo.php:79
+#: includes-core/frontend-features-promo.php:32 includes/functions.php:685
+msgid "Upgrade to Pro"
+msgstr "Actualiza a Pro"
+
+#: includes/backup.php:227
+msgid "%s (level %s)"
+msgstr "%s (nivel %s)"
+
+#: includes/backup.php:191
+msgid "%s (%s roles)"
+msgstr "%s (%s perfiles)"
+
+#: includes/backup.php:84
+msgid "Last Backup"
+msgstr "Última copia de seguridad"
+
+#: includes/backup.php:164
+msgid "Initial Backup"
+msgstr "Copia de seguridad inicial"
+
+#: includes/backup.php:164
+msgid "Initial Backup - %s"
+msgstr "Copia de seguridad inicial: %s"
+
+#: includes/pp-ui.php:294
+msgid "Detailed Taxonomy Capabilities"
+msgstr "Capacidades de taxonomías detalladas"
+
+#: includes/pp-ui.php:79
+msgid "Capabilities for custom statuses can be manually added here. (See %sPermissions > Post Statuses%s for applicable names). %sSupplemental status-specific roles%s are usually more convenient, though."
+msgstr "Las capacidades para los estados personalizados pueden ser añadidas manualmente aquí. (Ver %sPermisos > Estados de las entradas%s para los nombres aplicables). Sin embargo, los %sperfiles específicos de estado suplementarios%s suelen ser más convenientes."
+
+#: includes/features/frontend-features/frontend-features-ui.php:151
+#: includes/features/frontend-features/frontend-features-ui.php:154
+#: includes/features/restrict-editor-features.php:47
+#: includes/filters-woocommerce.php:38 includes/roles/roles.php:10
+msgid "Add New"
+msgstr "Añadir nuevo"
+
+#: includes/filters-woocommerce.php:37
+#: includes/roles/class/class-pp-roles-list-table.php:86
+msgid "All %s"
+msgid_plural "All %s"
+msgstr[0] "Todos los %s"
+msgstr[1] ""
+
+#: includes/backup-handler.php:90
+msgid "Roles and Capabilities restored from initial backup."
+msgstr "Los perfiles y capacidades se han restaurado desde la copia de seguridad inicial."
+
+#: includes/handler.php:124
+msgid "Type / Taxonomy settings saved."
+msgstr "Los ajustes de tipo/taxonomía se han guardados."
+
+#: includes/manager.php:1451
+msgid "Contact"
+msgstr "Contacto"
+
+#: includes/manager.php:1451
+msgid "Contact the PublishPress team"
+msgstr "Contacta al equipo PublishPress"
+
+#: includes/manager.php:1449
+msgid "Capabilites Documentation"
+msgstr "Documentación de capacidades"
+
+#: includes/manager.php:1447
+msgid "About"
+msgstr "Acerca de"
+
+#: includes/manager.php:1447
+msgid "About PublishPress Capabilities"
+msgstr "Acerca de PublishPress Capabilities"
+
+#: includes/manager.php:1436
+msgid "If you like %s, please leave us a %s rating. Thank you!"
+msgstr "Si te gusta %s, por favor déjanos una valoración de %s. ¡Gracias!"
+
+#: includes/manager.php:497 includes/roles/class/class-pp-roles-admin.php:172
+#: includes/roles/class/class-pp-roles-list-table.php:170
+msgid "Role Name"
+msgstr "Nombre del perfil"
+
+#: includes/admin.php:1795
+msgid "Role level is mostly deprecated. However, it still determines eligibility for Post Author assignment and limits the application of user editing capabilities."
+msgstr "El nivel de los perfiles está prácticamente obsoleto. Sin embargo, aún determina la elegibilidad para la asignación del autor de la entrada y limita la aplicación de las capacidades de edición del usuario."
+
+#: includes/admin.php:559 includes/admin.php:1271
+msgid "Invalid Capabilities"
+msgstr "Capacidades no válidas"
+
+#: includes/admin.php:1704
+msgid "PublishPress Permissions"
+msgstr "Permisos de PublishPress"
+
+#: includes/admin.php:49
+msgid "Warning: This role cannot access the dashboard without the read capability. %1$sClick here to fix this now%2$s."
+msgstr "Advertencia: Este perfil no puede acceder al escritorio sin la capacidad de lectura. %1$sHaz clic aquí para corregir esto ahora%2$s."
+
+#: includes/backup.php:51 includes/functions-admin.php:505
+msgid "Backup"
+msgstr "Copia de seguridad"
+
+#: includes/filters.php:254
+msgid "Edit Roles"
+msgstr "Editar perfiles"
+
+#. Author URI of the plugin
+#: capsman-enhanced.php
+msgid "https://publishpress.com/"
+msgstr "https://publishpress.com/"
+
+#. Author of the plugin
+#: capsman-enhanced.php
+msgid "PublishPress"
+msgstr "PublishPress"
+
+#. Plugin URI of the plugin
+#: capsman-enhanced.php
+msgid "https://publishpress.com/capability-manager/"
+msgstr "https://publishpress.com/capability-manager/"
+
+#. Plugin Name of the plugin
+#: capsman-enhanced.php
+msgid "PublishPress Capabilities"
+msgstr "PublishPress Capabilities"
+
+#: includes/admin.php:251
+#: includes/roles/class/class-pp-roles-list-table.php:233
+msgid "Copy"
+msgstr "Copiar"
+
+#: includes/pp-ui.php:193 includes/pp-ui.php:279 includes/pp-ui.php:358
+msgid "Update"
+msgstr "Actualizar"
+
+#: includes/admin-load.php:485 includes/functions-admin.php:369
+#: includes/functions-admin.php:447 includes/manager.php:371
+#: includes/roles/class/class-pp-roles-admin.php:637
+#: includes/settings-ui.php:34
+msgid "Capabilities"
+msgstr "Capacidades"
+
+#: includes/pp-ui.php:81
+msgid "Capabilities for custom statuses can be manually added here. Or activate the PP Custom Post Statuses extension to assign status-specific supplemental roles."
+msgstr "Las capacidades para los estados personalizados pueden añadirse manualmente aquí. O bien activar la extensión PP Custom Post Statuses para asignar perfiles suplementarios específicos de estados."
+
+#: includes/pp-ui.php:64
+msgid "activate %1$sAdvanced settings%2$s, see Role Usage"
+msgstr "activar los %1$sajustes avanzados%2$s, consulta Uso de perfiles"
+
+#: includes/manager.php:1122
+msgid "Bad form Received"
+msgstr "Se ha recibido un formulario incorrecto"
+
+#: includes/roles/class/class-pp-roles-actions.php:522
+msgid "Cannot delete default role. You <a href=\"%s\">have to change it first</a>."
+msgstr "No se ha podido eliminar el perfil predeterminados. <a href=\"%s\">Debes cambiarlo antes</a>."
+
+#: includes/handler.php:127
+msgid "Bad form received."
+msgstr "Se ha recibido un formulario incorrecto."
+
+#: includes/handler.php:119
+msgid "Incorrect capability name."
+msgstr "Nombre incorrecto de la capacidad."
+
+#: includes/manager.php:1081
+msgid "New capability added to role."
+msgstr "Se han añadido nuevas capacidades al perfil."
+
+#: includes/handler.php:51
+msgid "Error: Failed creating the new role."
+msgstr "Error: no se ha podido crear el nuevo perfil."
+
+#: includes/handler.php:45
+msgid "New role created."
+msgstr "Se ha creado un nuevo perfil."
+
+#: includes/backup.php:293
+msgid "Reset to WordPress defaults"
+msgstr "Restablecer a los valores predeterminados de WordPress"
+
+#: includes/backup.php:291
+msgid "Reset Roles and Capabilities to WordPress defaults"
+msgstr "Restablecer perfiles y capacidades a los valores predeterminados de WordPress"
+
+#: includes/backup.php:288
+msgid "It is recommended to use this only as a last resource!"
+msgstr "¡Se recomienda usar esta opción solo como último recurso!"
+
+#: includes/backup.php:287
+msgid "If you have installed any plugin that adds new roles or capabilities, these will be lost."
+msgstr "Si has instalado algún plugin que añade nuevos perfiles o capacidades, estos se perderán."
+
+#: includes/backup.php:285
+msgid "Reseting default Roles and Capabilities will set them to the WordPress install defaults."
+msgstr "Al restablecer los perfiles y capacidades predeterminados, los establecerá a los valores predeterminados de la instalación de WordPress."
+
+#: includes/backup.php:283
+msgid "Reset WordPress Defaults"
+msgstr "Restaurar a los valores predeterminados de WordPress"
+
+#: includes/backup-handler.php:293
+msgid "Roles and Capabilities reset to WordPress defaults"
+msgstr "Se han restablecido los perfiles y capacidades a los valores predeterminados de WordPress"
+
+#: includes/backup-handler.php:274
+msgid "Needed function to create default roles not found!"
+msgstr "¡No se ha encontrado la función necesaria para crear los perfiles predeterminados!"
+
+#: includes/backup-handler.php:92 includes/backup-handler.php:121
+#: includes/backup-handler.php:130
+msgid "Restore failed. No backup found."
+msgstr "Ha fallado la restauración. No se ha encontrado ninguna copia de seguridad."
+
+#: includes/backup-handler.php:73
+msgid "New backup saved."
+msgstr "Se ha guardado una nueva copia de seguridad."
+
+#: includes/manager.php:1242
+msgid "You do not have permission to restore roles."
+msgstr "No tienes permisos para restaurar perfiles."
+
+#: includes/admin.php:1843
+msgid "Copy / update this role definition to all sites now"
+msgstr "Copiar/actualizar esta definición de perfil a todos los sitios ahora"
+
+#: includes/admin.php:1840
+msgid "Create this role definition in new (future) sites"
+msgstr "Crear esta definición de perfil en nuevos (futuros) sitios"
+
+#: includes/admin.php:1645
+msgid "Add to role"
+msgstr "Añadir al perfil"
+
+#: includes/roles/class/class-pp-roles-admin.php:543
+msgid "Create New Role"
+msgstr "Crear nuevo perfil"
+
+#: framework/lib/formating.php:40
+msgid "Settings saved."
+msgstr "Opciones guardadas."
+
+#: includes/backup.php:285 includes/backup.php:332
+msgid "Warning:"
+msgstr "Advertencia:"
+
+#: includes-core/admin-menus-promo.php:48 includes/admin.php:126
+#: includes/admin.php:1812 includes/features/admin-features.php:61
+#: includes/features/admin-features.php:299
+#: includes/features/frontend-features/frontend-features.php:85
+#: includes/features/frontend-features/frontend-features.php:235
+#: includes/features/nav-menus.php:101 includes/features/nav-menus.php:289
+#: includes/features/profile-features.php:60
+#: includes/features/profile-features.php:218
+#: includes/redirects/redirects.php:111 includes/redirects/redirects.php:308
+#: includes/roles/class/class-pp-roles-admin.php:512
+#: includes/settings-ui.php:395
+msgid "Save Changes"
+msgstr "Guardar los cambios"
+
+#: includes/manager.php:1449
+msgid "Documentation"
+msgstr "Documentación"
+
+#: includes/admin.php:1372
+msgid "Additional Capabilities"
+msgstr "Capacidades adicionales"
+
+#: includes/admin.php:81
+msgid "negate none (add/remove all capabilities normally)"
+msgstr "no negar ninguna (añadir/quitar todas las capacidades normalmente)"
+
+#: includes/admin.php:77
+msgid "negate all (storing as disabled capabilities)"
+msgstr "negar todas (almacenar como capacidades desactivadas)"
+
+#: includes/admin.php:239
+msgid "&nbsp;"
+msgstr "&nbsp;"
+
+#: includes/admin.php:1763
+msgid "%s info/purchase"
+msgstr "información/compra de %s"
+
+#: includes/admin.php:1763
+msgid "%1$sbuy%2$s %3$s"
+msgstr "%1$scomprar%2$s %3$s"
+
+#: includes/admin.php:1761
+msgid "%s (free install)"
+msgstr "%s (instalación gratuita)"
+
+#: includes/admin.php:1761
+msgid "%1$sgrab%2$s %3$s"
+msgstr "%1$sobtener%2$s %3$s"
+
+#: includes/admin.php:1754
+msgid "Member support forum"
+msgstr "Foro de soporte de miembros"
+
+#: includes/admin.php:1750
+msgid "WPML integration to mirror permissions to translations <em>(Pro)</em>"
+msgstr "Integración de WPML para replicar los permisos a las traducciones <em>(Pro)</em>"
+
+#: includes/admin.php:1746
+msgid "Grant supplemental content permissions to a BuddyPress group <em>(Pro)</em>"
+msgstr "Otorgar permisos de contenido suplementario a un grupo de BuddyPress <em>(Pro)</em>"
+
+#: includes/admin.php:1742
+msgid "Grant Spectator, Participant or Moderator access to specific bbPress forums <em>(Pro)</em>"
+msgstr "Otorgar al espectador, participante o moderador acceso a foros específicos de bbPress <em>(Pro)</em>"
+
+#: includes/admin.php:1738
+msgid "Customize the moderated editing of published content with Revisionary or Post Forking <em>(Pro)</em>"
+msgstr "Personalizar la edición moderada de los contenidos publicados con Revisionary o Post Forking <em>(Pro)</em>"
+
+#: includes/admin.php:1734
+msgid "Regulate permissions for Edit Flow post statuses <em>(Pro)</em>"
+msgstr "Regular los permisos de los estados de las entradas de Edit Flow <em>(Pro)</em>"
+
+#: includes/admin.php:1730
+msgid "Custom Moderation statuses for access-controlled, multi-step publishing workflow <em>(Pro)</em>"
+msgstr "Estados de moderación personalizados para el flujo de trabajo de publicación multipaso y de acceso controlado <em>(Pro)</em>"
+
+#: includes/admin.php:1726
+msgid "Custom Post Visibility statuses, fully implemented throughout wp-admin <em>(Pro)</em>"
+msgstr "Estados de Custom Post Visibility, totalmente implementados en todo el escritorio <em>(Pro)</em>"
+
+#: includes/admin.php:1722
+msgid "Customize editing permissions per-category or per-post <em>(Pro)</em>"
+msgstr "Personalizar los permisos de edición por categoría o por tipo de contenido <em>(Pro)</em>"
+
+#: includes/admin.php:1718
+msgid "Customize reading permissions per-category or per-post"
+msgstr "Personalizar los permisos de lectura por categoría o por tipo de contenido"
+
+#: includes/admin.php:1714
+msgid "Assign custom WP roles supplementally for a specific post type <em>(Pro)</em>"
+msgstr "Asignar perfiles de WP personalizados de forma suplementaria para un tipo de contenido específico <em>(Pro)</em>"
+
+#: includes/admin.php:1710
+msgid "Assign standard WP roles supplementally for a specific post type"
+msgstr "Asignar perfiles de WP estándar de forma suplementaria para un tipo de contenido específico"
+
+#: includes/admin.php:1706
+msgid "Automatically define type-specific capabilities for your custom post types and taxonomies"
+msgstr "Definir automáticamente las capacidades específicas del tipo para tus tipos de contenido y taxonomías personalizadas"
+
+#: includes/manager.php:235
+msgid "Add or remove capability from the role normally"
+msgstr "Añadir o quitar capacidades del perfil normalmente"
+
+#: includes/manager.php:234
+msgid "Add or remove this capability from the WordPress role"
+msgstr "Añadir o quitar esta capacidad del perfil de WordPress"
+
+#: includes/manager.php:222
+msgid "This capability is explicitly negated. Click to add/remove normally."
+msgstr "Esta capacidad está explícitamente negada. Haz clic para añadir/quitar normalmente."
+
+#: includes/manager.php:232
+msgid "Post type registration does not define this capability distinctly"
+msgstr "El registro del tipo de contenido no define claramente esta capacidad"
+
+#: includes/manager.php:231
+msgid "Explicitly negate these capabilities by storing as disabled"
+msgstr "Niega explícitamente estas capacidades almacenándolas como desactivadas"
+
+#: includes/manager.php:230
+msgid "Explicity negate this capability by storing as disabled"
+msgstr "Niega explícitamente esta capacidad almacenándola como desactivada"
+
+#: includes/admin.php:88
+msgid "Role Capabilities"
+msgstr "Capacidades del perfil"
+
+#: includes/backup.php:293
+msgid ""
+"You are about to reset Roles and Capabilities to WordPress defaults.\n"
+" 'Cancel' to stop, 'OK' to reset."
+msgstr ""
+"Estás a punto de restablecer los perfiles y capacidades a los valores predeterminados de WordPress.\n"
+"\"Cancelar\" para detener, \"Aceptar\" para restablecer."
+
+#: includes/handler.php:250
+msgid "You cannot remove Manage Capabilities from Administrators"
+msgstr "No puedes eliminar \"Gestionar capacidades\" a los administradores"
+
+#: includes/pp-ui.php:62
+msgid "see %1$sRole Usage%2$s: \"Pattern Roles\""
+msgstr "consulta %1$sUso de perfiles%2$s: \"Perfiles de patrones\""
+
+#: includes/pp-ui.php:69
+msgid "\"Posts\" capabilities selected here also define type-specific role assignment for Permission Groups%s."
+msgstr "Las capacidades de \"entradas\" seleccionadas aquí también definen la asignación de perfiles específicos para los grupos de permisos%s."
+
+#: includes/pp-ui.php:71
+msgid "\"Posts\" capabilities selected here also define type-specific role assignment for Permit Groups%s."
+msgstr "Las capacidades de \"entradas\" seleccionadas aquí también definen la asignación de perfiles específicos para los grupos permitidos%s."
+
+#: includes/pp-ui.php:84
+msgid "Capabilities for custom statuses can be manually added to a role here (see Conditions > Status > Capability Mapping for applicable names). However, it is usually more convenient to use Permit Groups to assign a supplemental status-specific role."
+msgstr "Las capacidades para los estados personalizados pueden añadirse manualmente a un perfil aquí (consulta Condiciones > Estado > Asignación de capacidades para los nombres aplicables). Sin embargo, suele ser más conveniente utilizar los \"Grupos permitidos\" para asignar perfiles suplementarios específicos de estados."
+
+#: includes/admin.php:792 includes/admin.php:1041 includes/admin.php:1208
+#: includes/admin.php:1448
+msgid "%s: assigned by Permission Group"
+msgstr "%s: asignada por el \"Grupo de permisos\""
+
+#: includes/backup.php:62
+msgid "Backup Roles and Capabilities"
+msgstr "Copia de seguridad de los perfiles y capacidades"

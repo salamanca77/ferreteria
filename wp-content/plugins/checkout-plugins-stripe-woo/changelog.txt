@@ -1,0 +1,170 @@
+*** Stripe Payments For WooCommerce by Checkout Plugins Changelog ***
+
+2025-06-05 - version 1.11.2
+* Fixed - Updated the vendor/ directory with the latest dependencies.
+
+2025-06-05 - version 1.11.1
+* Fixed - Resolved an issue where the Stripe library failed to load.
+
+2025-06-05 - version 1.11.0
+* Added - Upgraded stripe library version to 15.5.0
+* Fixed - Order stock was getting reduced multiple times
+* Fixed - Currency-related error for Klarna payment in some countries
+* Fixed - Billing error on order-pay page with Klarna and SEPA
+
+2024-12-13 - version 1.10.1
+* Fixed - Removed deprecated statement_descriptor
+* Fixed - Incorrect usage of _load_textdomain_just_in_time function
+
+2024-08-27 - version 1.10.0
+* Added - Klarna support for more countries
+* Improved - Country conditions for Klarna on checkout
+* Improved - Plugin onboarding design and functionality
+* Improved - Notices structure for future compatibility
+
+2024-08-19 - version 1.9.3
+* Fixed - Orders status set to pending with guest checkout disabled
+* Fixed - Settings menu conflict with WooPayments
+
+2024-08-05 - version 1.9.2
+* Improved - Notice about Giropay deprecation
+* Improved - Error handling for Payment Element
+* Fixed - Security fix from PatchStack
+* Fixed - Payment Elements showed with no enabled methods
+
+2024-07-10 - version 1.9.1
+* Improved - Default values for express checkout settings
+* Improved - Conditions for separator on checkout page
+* Fixed - Express checkout button alignment and width
+* Fixed - Admin notice for Payment Elements not dismissing
+
+2024-07-03 - version 1.9.0
+* Added - Payment Element for smarter checkout
+* Improved - Express Checkout with link pay support and customization
+* Fixed - JS error on My Account for Add Payment Method
+* Fixed - Express checkout button positioning on product pages
+* Fixed - Backend show/hide issue for product page settings
+* Fixed - Button Width backend option hidden in some cases
+* Fixed - Express checkout separator not showing
+* Fixed - Payment options on WooCommerce Blocks checkout
+* Fixed - Sticky button UI issues on mobile
+* Fixed - Undefined variable errors in local gateways
+
+2024-05-02 - version 1.8.1
+* Improved - Modified statement descriptor for card payments
+
+2024-03-28 - version 1.8.0
+* Added - Gutenberg checkout block support for SEPA
+* Added - Gutenberg checkout block support for WeChat
+* Added - Gutenberg checkout block support for P24
+* Added - Gutenberg checkout block support for Bancontact
+* Fixed - statement_descriptor changed to statement_descriptor_suffix
+
+2024-01-23 - version 1.7.0
+* Added - Gutenberg checkout block support for iDEAL
+* Added - Gutenberg checkout block support for Klarna
+* Added - Gutenberg checkout block support for Alipay
+
+2024-01-04 - version 1.6.1
+* Improved - Alipay now supports more countries
+* Fixed - Updated plugin strings for better user experience
+
+2023-12-28 - version 1.6.0
+* Added - Gutenberg checkout block support for Credit Card method
+
+2023-10-16 - version 1.5.0
+* Added - Automated webhook creation
+* Improved - Klarna support for more countries
+
+2023-04-04 - version 1.4.14
+* Fixed - Apple Pay domain verification failure
+
+2023-03-29 - version 1.4.13
+* Fixed - Stripe zero currencies changing 100 times
+
+2023-03-15 - version 1.4.12
+* Improved - Refactored code for plugin security
+
+2023-01-21 - version 1.4.11
+* Improved - Hardened plugin security
+* Fixed - Console warning from Stripe library
+
+2022-12-28 - version 1.4.10
+* Fixed - Order Bump price not added to express checkout
+
+2022-12-05 - version 1.4.9
+* Fixed - Express checkout compatibility with CartFlows
+* Fixed - Add payment method not working
+
+2022-11-15 - version 1.4.8
+* Fixed - WooCommerce HPOS issues
+
+2022-11-08 - version 1.4.7
+* Improved - Added 'cpsw_exclude_frontend_scripts' filter
+* Improved - WooCommerce HPOS compatibility
+* Fixed - Updated WooCommerce deprecated function
+
+2022-06-09 - version 1.4.6
+* Fixed - Console error on Add payment method
+* Fixed - Redirect to onboarding wizard even if Stripe connected
+* Fixed - Inconsistent order notes for refund process
+
+2022-06-06 - version 1.4.5
+* Improved - Free trial/zero amount subscription support
+
+2022-04-22 - version 1.4.4
+* Improved - Support for older PHP versions
+* Improved - Modified display strings
+
+2022-04-21 - version 1.4.3
+* Fixed - Syntax error for older PHP versions
+
+2022-03-29 - version 1.4.2
+* Improved - Webhook secret step in onboarding wizard
+* Improved - Translation for card declined messages
+* Fixed - Automatic retry for failed payments
+* Fixed - Improved failed payment order notes
+
+2022-03-15 - version 1.4.1
+* Added - Express checkout class layout support
+* Improved - Localization for Stripe error messages
+* Improved - Compatibility with popular themes
+* Fixed - Express checkout console error
+* Fixed - Broken admin preview for express checkout
+
+2022-02-22 - version 1.4.0
+* Added - SEPA payment method support
+* Added - WeChat payment method support
+* Fixed - Onboarding icon shows even if Stripe connected
+* Fixed - Critical error with webhook description
+* Fixed - 3ds cards issue on pay order/change method page
+
+2022-02-08 - version 1.3.1
+* Fixed - Klarna was visible on checkout when disabled
+
+2022-02-01 - version 1.3.0
+* Added - Klarna payment method support
+* Added - Przelewy24 (P24) support
+* Added - Bancontact support
+* Added - Onboarding wizard
+* Added - Display stripe fees on edit order page
+* Improved - Localization support
+* Improved - Customizable Express Checkout buttons
+
+2022-01-20 - version 1.2.1
+* Fixed - Add payment method not working
+
+2022-01-04 - version 1.2.0
+* Added - Alipay support
+* Added - iDEAL support
+* Improved - Express Checkout customization
+* Improved - Webhook support for multiple events
+
+2021-12-22 - version 1.1.1
+* Fixed - Express Checkout buttons not showing in live mode
+
+2021-12-21 - version 1.1.0
+* Added - Express Checkout
+
+2021-11-23 - version 1.0.0
+* Initial release

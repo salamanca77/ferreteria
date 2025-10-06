@@ -1,0 +1,40 @@
+[26-Aug-2025 14:51:03 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home4/ferre152/public_html/wp-content/themes/twentytwentyfour/functions.php:147
+Stack trace:
+#0 {main}
+  thrown in /home4/ferre152/public_html/wp-content/themes/twentytwentyfour/functions.php on line 147
+[27-Aug-2025 18:59:14 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home4/ferre152/public_html/wp-content/themes/twentytwentyfour/functions.php:147
+Stack trace:
+#0 {main}
+  thrown in /home4/ferre152/public_html/wp-content/themes/twentytwentyfour/functions.php on line 147
+[29-Aug-2025 00:39:25 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home4/ferre152/public_html/wp-content/themes/twentytwentyfour/functions.php:147
+Stack trace:
+#0 {main}
+  thrown in /home4/ferre152/public_html/wp-content/themes/twentytwentyfour/functions.php on line 147
+[30-Aug-2025 04:49:17 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home4/ferre152/public_html/wp-content/themes/twentytwentyfour/functions.php:147
+Stack trace:
+#0 {main}
+  thrown in /home4/ferre152/public_html/wp-content/themes/twentytwentyfour/functions.php on line 147
+[31-Aug-2025 21:13:27 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home4/ferre152/public_html/wp-content/themes/twentytwentyfour/functions.php:147
+Stack trace:
+#0 {main}
+  thrown in /home4/ferre152/public_html/wp-content/themes/twentytwentyfour/functions.php on line 147
+[01-Sep-2025 11:00:51 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home4/ferre152/public_html/wp-content/themes/twentytwentyfour/functions.php:147
+Stack trace:
+#0 {main}
+  thrown in /home4/ferre152/public_html/wp-content/themes/twentytwentyfour/functions.php on line 147
+[07-Sep-2025 15:15:24 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home4/ferre152/public_html/wp-content/themes/twentytwentyfour/functions.php:147
+Stack trace:
+#0 {main}
+  thrown in /home4/ferre152/public_html/wp-content/themes/twentytwentyfour/functions.php on line 147
+[11-Sep-2025 20:43:31 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home4/ferre152/public_html/wp-content/themes/twentytwentyfour/functions.php:147
+Stack trace:
+#0 {main}
+  thrown in /home4/ferre152/public_html/wp-content/themes/twentytwentyfour/functions.php on line 147
+[21-Sep-2025 06:01:08 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home4/ferre152/public_html/wp-content/themes/twentytwentyfour/functions.php:147
+Stack trace:
+#0 {main}
+  thrown in /home4/ferre152/public_html/wp-content/themes/twentytwentyfour/functions.php on line 147
+[22-Sep-2025 18:24:21 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home4/ferre152/public_html/wp-content/themes/twentytwentyfour/functions.php:147
+Stack trace:
+#0 {main}
+  thrown in /home4/ferre152/public_html/wp-content/themes/twentytwentyfour/functions.php on line 147

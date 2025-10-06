@@ -1,0 +1,621 @@
+# Translation of Plugins - wePOS &#8211; Point Of Sale (POS) for WooCommerce - Stable (latest release) in Spanish (Mexico)
+# This file is distributed under the same license as the Plugins - wePOS &#8211; Point Of Sale (POS) for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-10-17 14:32:12+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: es_MX\n"
+"Project-Id-Version: Plugins - wePOS &#8211; Point Of Sale (POS) for WooCommerce - Stable (latest release)\n"
+
+#: includes/Admin/LimitedTimePromotion.php:77
+msgid "Get Deals &rarr;"
+msgstr "Conseguir ofertas &rarr;"
+
+#: includes/Admin/LimitedTimePromotion.php:162
+msgid "You have no permission to do that"
+msgstr "No tienes permiso para hacer eso"
+
+#: languages/wepos.php:56 assets/js/frontend.js:67
+msgid "Taxable"
+msgstr "Imponible"
+
+#: languages/wepos.php:58 assets/js/frontend.js:67
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: includes/REST/Manager.php:183
+msgid "The item %s already out of stock. Please remove this from cart"
+msgstr "El artículo %s ya no tiene existencias. Por favor, elimínalo del carrito"
+
+#: includes/REST/CustomerController.php:51
+msgid "New user password."
+msgstr "Nueva contraseña."
+
+#: includes/REST/CustomerController.php:46
+msgid "New user username."
+msgstr "Nuevo nombre de usuario."
+
+#: includes/REST/CustomerController.php:42
+msgid "New user email address."
+msgstr "Nueva dirección de correo electrónico."
+
+#: includes/Admin/Admin.php:101
+msgid "Is POS"
+msgstr "Es un POS"
+
+#: includes/Dokan.php:155
+msgid "Show POS menu in vendor dashboard"
+msgstr "Mostrar menú del POS en el escritorio del vendedor"
+
+#: includes/Dokan.php:154
+msgid "Show POS menu"
+msgstr "Mostrar menú del POS"
+
+#: includes/REST/PaymentController.php:66
+msgid "Sorry, you cannot access this resources."
+msgstr "Lo siento, no puedes acceder a estos recursos."
+
+#: includes/REST/CustomerController.php:69
+#: includes/REST/CustomerController.php:85
+#: includes/REST/ProductController.php:47
+#: includes/REST/SettingController.php:51 includes/REST/TaxController.php:47
+msgid "Sorry, you are not allowed view this resource."
+msgstr "Lo siento, no tienes permiso para ver este recurso."
+
+#: includes/Admin/Updates.php:80
+msgid "It is strongly recommended that you backup your database before proceeding. Are you sure you wish to run the updater now?"
+msgstr "Se recomienda encarecidamente que, antes de continuar, hagas una copia de seguridad de tu base de datos. ¿Seguro que quieres ejecutar ahora el actualizador?"
+
+#: includes/Admin/Updates.php:75
+msgid "Run the updater"
+msgstr "Ejecutar el actualizador"
+
+#: includes/Admin/Updates.php:74
+msgid "We need to update your install to the latest version"
+msgstr "Necesitamos actualizar tu instalación a la última versión"
+
+#: includes/Admin/Updates.php:74
+msgid "WePOS Data Update Required"
+msgstr "Se necesita una actualización de datos de WePOS"
+
+#: languages/wepos.php:55 assets/js/frontend.js:67
+msgid "Total"
+msgstr "Total"
+
+#: languages/wepos.php:40 assets/js/frontend.js:67
+msgid "Price :"
+msgstr "Precio:"
+
+#: languages/wepos.php:39 assets/js/frontend.js:67
+msgid "Sku :"
+msgstr "SKU:"
+
+#: languages/wepos.php:37 assets/js/frontend.js:67
+msgid "Select a category"
+msgstr "Seleccionar una categoría"
+
+#: languages/wepos.php:32 assets/js/frontend.js:61
+msgid "Zip/Postal Code (optional)"
+msgstr "Código postal (opcional)"
+
+#: languages/wepos.php:30 assets/js/frontend.js:61
+msgid "States (optional)"
+msgstr "Estados (opcional)"
+
+#: languages/wepos.php:29 assets/js/frontend.js:61
+msgid "Select a state"
+msgstr "Selecciona un estado"
+
+#: languages/wepos.php:27 assets/js/frontend.js:61
+msgid "No country found"
+msgstr "No se ha encontrado ningún país"
+
+#: languages/wepos.php:26 assets/js/frontend.js:61
+msgid "Select a country"
+msgstr "Selecciona un país"
+
+#: languages/wepos.php:87 assets/js/frontend.js:34
+msgid "All categories"
+msgstr "Todas las categorías"
+
+#. translators: 1: Cash tendered amount 2: Cash change amount.
+#: includes/Gateways/Cash.php:107
+msgid "Cash tendered amount: %1$s, Change amount: %2$s"
+msgstr "Cantidad ofrecida en efectivo: %1$s, Cambiar cantidad: %2$s"
+
+#: includes/Gateways/Cash.php:103
+msgid "Payment collected via cash"
+msgstr "Pago efectuado en efectivo"
+
+#: includes/Gateways/Cash.php:65
+msgid "Pay with cash"
+msgstr "Pago en efectivo"
+
+#: includes/Gateways/Cash.php:64
+msgid "Payment method description that marchent see in pos checkout page"
+msgstr "Descripción del método de pago que el vendedor ve en la página de finalizar cuenta del POS"
+
+#: includes/Gateways/Cash.php:62
+msgid "Description"
+msgstr "Descripción"
+
+#: includes/Gateways/Cash.php:57
+msgid "Payment method description that the marchent see in pos checkout"
+msgstr "Descripción del método de pago que el vendedor ve en la página de finalizar cuenta del POS"
+
+#: includes/Gateways/Cash.php:55
+msgid "Title"
+msgstr "Título"
+
+#: includes/Gateways/Cash.php:49
+msgid "Enable cash gateway"
+msgstr "Activar pago en efectivo"
+
+#: includes/Gateways/Cash.php:48
+msgid "Enable/Disable"
+msgstr "Activar/desactivar"
+
+#: includes/Gateways/Cash.php:37
+msgid "Have your customers pay with cash"
+msgstr "Haz que tus clientes paguen en efectivo"
+
+#: includes/Admin/Products.php:41 includes/Admin/Products.php:72
+msgid "Enter your unique barcode number or text for this product"
+msgstr "Introduce tu número único del código de barras o el texto para este producto"
+
+#: includes/Admin/Products.php:38 includes/Admin/Products.php:69
+msgid "Barcode"
+msgstr "Código de barras"
+
+#: includes/Admin/Settings.php:89
+msgid "Setting has been saved successfully."
+msgstr "Los ajustes han sido guardados correctamente."
+
+#: includes/Admin/Settings.php:72
+msgid "Setting not saved properly"
+msgstr "Los ajustes no se han guardado correctamente"
+
+#: includes/Admin/Settings.php:61
+msgid "You are not authorized to perform this action."
+msgstr "No estás autorizado para realizar esta acción."
+
+#: includes/Admin/LimitedTimePromotion.php:166 includes/Admin/Settings.php:39
+#: includes/Admin/Settings.php:66
+msgid "Invalid nonce"
+msgstr "Nonce no válido"
+
+#: includes/Admin/Settings.php:33
+msgid "You have no permission to get settings value"
+msgstr "No tienes permiso para obtener el valor de los ajustes"
+
+#: includes/Admin/Admin.php:37 includes/Dokan.php:134 includes/Frontend.php:130
+msgid "View POS"
+msgstr "Ver POS"
+
+#: includes/Admin/Admin.php:27
+msgid "WePOS"
+msgstr "WePOS"
+
+#: includes/functions.php:215
+msgid "Thank you"
+msgstr "Gracias"
+
+#: includes/functions.php:213
+msgid "Enter your order receipt footer text"
+msgstr "Introduce tu texto del pie de página del recibo del pedido"
+
+#: includes/functions.php:212
+msgid "Order receipt footer"
+msgstr "Pie de pagina del recibo del pedido"
+
+#: includes/functions.php:206
+msgid "Enter your order receipt header"
+msgstr "Introduce tu cabecera del recibo del pedido"
+
+#: includes/functions.php:205
+msgid "Order receipt header"
+msgstr "Cabecera del recibo del pedido"
+
+#: includes/functions.php:198
+msgid "Custom field"
+msgstr "Campo personalizado"
+
+#: includes/functions.php:197
+msgid "SKU"
+msgstr "SKU"
+
+#: includes/functions.php:196
+msgid "ID"
+msgstr "ID"
+
+#: includes/functions.php:192
+msgid "Choose your barcode field. If you select <code>Custom Field</code> then you need to set barcode number manually in product edit page"
+msgstr "Elige el campo del código de barras. Si seleccionas <code>campo personalizado</code> necesitarás establecer manualmente el número del código de barras en la página de edición del producto"
+
+#: includes/functions.php:191
+msgid "Barcode Scanner field"
+msgstr "Campo del escáner de código de barras"
+
+#: includes/Dokan.php:160 includes/functions.php:186
+msgid "No"
+msgstr "No"
+
+#: includes/Dokan.php:159 includes/functions.php:185
+msgid "Yes"
+msgstr "Sí"
+
+#: includes/functions.php:181
+msgid "Choose if tax caluclate for fee in POS cart and checkout"
+msgstr "Elige si los impuestos se calculan para la cuota en el carrito y al finalizar compra en el POS"
+
+#: includes/functions.php:180
+msgid "Calculate tax for Fee"
+msgstr "Calcular impuestos para la cuota"
+
+#: includes/functions.php:160
+msgid "Receipts"
+msgstr "Recibos"
+
+#: includes/functions.php:155
+msgid "General"
+msgstr "General"
+
+#: includes/functions.php:132
+msgid "- select -"
+msgstr "- seleccionar -"
+
+#: includes/REST/PaymentController.php:114
+msgid "No payment gateway found for processing this payment"
+msgstr "No se ha encontrado ninguna pasarela de pago para procesar este pago"
+
+#: includes/REST/PaymentController.php:102
+msgid "No order found"
+msgstr "No se ha encontrado ningún pedido"
+
+#: includes/Frontend.php:111
+msgid "Point of Sale"
+msgstr "Punto de venta"
+
+#: languages/wepos.php:86 assets/js/frontend.js:67
+msgid "Change money"
+msgstr "Cambiar dinero"
+
+#: includes/Gateways/Cash.php:36 includes/Gateways/Cash.php:58
+#: languages/wepos.php:85 assets/js/frontend.js:67
+msgid "Cash"
+msgstr "Efectivo"
+
+#: languages/wepos.php:84 assets/js/frontend.js:67
+msgid "No gateway found"
+msgstr "No se ha encontrado ninguna pasarela de pago"
+
+#: languages/wepos.php:83 assets/js/frontend.js:67
+msgid "Pay"
+msgstr "Pagar"
+
+#: languages/wepos.php:81 assets/js/frontend.js:67
+msgid "Sale Summary"
+msgstr "Resumen de la venta"
+
+#: languages/wepos.php:80 assets/js/frontend.js:67
+msgid "Close anything"
+msgstr "Cerrar todo"
+
+#: languages/wepos.php:79 assets/js/frontend.js:67
+msgid "Show/Close(Toggle) Help"
+msgstr "Mostrar/Cerrar ayuda"
+
+#: languages/wepos.php:77 assets/js/frontend.js:67
+msgid "Process Payment"
+msgstr "Procesar pago"
+
+#: languages/wepos.php:76 assets/js/frontend.js:67
+msgid "Go to payment receipt"
+msgstr "Ir al recibo del pago"
+
+#: languages/wepos.php:75 assets/js/frontend.js:67
+msgid "Empty your cart"
+msgstr "Vacía tu carrito"
+
+#: languages/wepos.php:74 assets/js/frontend.js:67
+msgid "Create New Sale"
+msgstr "Crear nueva venta"
+
+#: languages/wepos.php:73 assets/js/frontend.js:67
+msgid "Add new Customer"
+msgstr "Añadir nuevo cliente"
+
+#: languages/wepos.php:72 assets/js/frontend.js:67
+msgid "Customer Search"
+msgstr "Buscar cliente"
+
+#: languages/wepos.php:71 assets/js/frontend.js:67
+msgid "Add Customer note"
+msgstr "Añadir nota del cliente"
+
+#: languages/wepos.php:70 assets/js/frontend.js:67
+msgid "Add Discount in cart"
+msgstr "Añadir descuento en el carrito"
+
+#: languages/wepos.php:69 assets/js/frontend.js:67
+msgid "Add Fee in cart"
+msgstr "Añadir cuota en el carrito"
+
+#: languages/wepos.php:68 assets/js/frontend.js:67
+msgid "Toggle Product View"
+msgstr "Alternar vista del producto"
+
+#: languages/wepos.php:67 assets/js/frontend.js:67
+msgid "Scan Product"
+msgstr "Escanear producto"
+
+#: languages/wepos.php:66 assets/js/frontend.js:67
+msgid "Search Product"
+msgstr "Buscar producto"
+
+#: languages/wepos.php:65 assets/js/frontend.js:67
+msgid "Shortcut Keys"
+msgstr "Atajos de teclado"
+
+#: languages/wepos.php:64 assets/js/frontend.js:67
+msgid "New Sale"
+msgstr "Nueva venta"
+
+#: languages/wepos.php:63 assets/js/frontend.js:67
+msgid "Sale Completed"
+msgstr "Venta completada"
+
+#: languages/wepos.php:62 assets/js/frontend.js:67
+msgid "Pay Now"
+msgstr "Pagar ahora"
+
+#: languages/wepos.php:57 assets/js/frontend.js:67
+msgid "Apply"
+msgstr "Aplicar"
+
+#: languages/wepos.php:54 assets/js/frontend.js:67
+msgid "Fee Name"
+msgstr "Nombre de la cuota"
+
+#: languages/wepos.php:50 assets/js/frontend.js:67
+msgid "Quantity"
+msgstr "Cantidad"
+
+#: languages/wepos.php:49 assets/js/frontend.js:67
+msgid "Price"
+msgstr "Precio"
+
+#: languages/wepos.php:48 assets/js/frontend.js:67
+msgid "Qty"
+msgstr "Cant"
+
+#: languages/wepos.php:46 assets/js/frontend.js:67
+msgid "Logout"
+msgstr "Salir"
+
+#: languages/wepos.php:45 assets/js/frontend.js:67
+msgid "Help"
+msgstr "Ayuda"
+
+#: languages/wepos.php:44 assets/js/frontend.js:67
+msgid "Empty Cart"
+msgstr "Vaciar carrito"
+
+#: languages/wepos.php:43 assets/js/frontend.js:67
+msgid "No Product Found"
+msgstr "No se ha encontrado ningún producto"
+
+#: languages/wepos.php:38 assets/js/frontend.js:67
+msgid "Not found"
+msgstr "No encontrado"
+
+#: languages/wepos.php:14 assets/js/frontend.js:58
+msgid "Add Note"
+msgstr "Añadir nota"
+
+#: languages/wepos.php:95 assets/js/frontend.js:79
+msgid "Change Money"
+msgstr "Cambiar dinero"
+
+#: languages/wepos.php:94 assets/js/frontend.js:79
+msgid "Cash Given"
+msgstr "Efectivo entregado"
+
+#: languages/wepos.php:93 assets/js/frontend.js:79
+msgid "Payment method"
+msgstr "Método de pago"
+
+#: languages/wepos.php:82 assets/js/frontend.js:67 assets/js/frontend.js:79
+msgid "Order Total"
+msgstr "Total del pedido"
+
+#: languages/wepos.php:61 assets/js/frontend.js:67 assets/js/frontend.js:79
+msgid "Tax"
+msgstr "Impuestos"
+
+#: languages/wepos.php:51 assets/js/frontend.js:67 assets/js/frontend.js:79
+msgid "Subtotal"
+msgstr "Subtotal"
+
+#: languages/wepos.php:91 assets/js/frontend.js:79
+msgid "Order Date"
+msgstr "Fecha del pedido"
+
+#: languages/wepos.php:90 assets/js/frontend.js:79
+msgid "Order ID"
+msgstr "ID del pedido"
+
+#: languages/wepos.php:78 assets/js/frontend.js:67 assets/js/frontend.js:76
+msgid "Print Receipt"
+msgstr "Imprimir recibo"
+
+#: languages/wepos.php:36 assets/js/frontend.js:64
+msgid "Add"
+msgstr "Añadir"
+
+#: languages/wepos.php:34 assets/js/frontend.js:61
+msgid "Add Customer"
+msgstr "Añadir cliente"
+
+#: languages/wepos.php:33 assets/js/frontend.js:61
+msgid "Phone (optional)"
+msgstr "Teléfono (opcional)"
+
+#: languages/wepos.php:31 assets/js/frontend.js:61
+msgid "City (optional)"
+msgstr "Ciudad (opcional)"
+
+#: languages/wepos.php:25 assets/js/frontend.js:61
+msgid "Address 2 (optional)"
+msgstr "Dirección 2 (opcional)"
+
+#: languages/wepos.php:24 assets/js/frontend.js:61
+msgid "Address 1"
+msgstr "Dirección 1"
+
+#: languages/wepos.php:23 assets/js/frontend.js:61
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: languages/wepos.php:22 assets/js/frontend.js:61
+msgid "Last Name"
+msgstr "Apellidos"
+
+#: languages/wepos.php:21 assets/js/frontend.js:61
+msgid "First Name"
+msgstr "Nombre"
+
+#: languages/wepos.php:20 assets/js/frontend.js:61
+msgid "Add New Customer"
+msgstr "Añadir nuevo cliente"
+
+#: languages/wepos.php:16 assets/js/frontend.js:61
+msgid "No customer found"
+msgstr "No se ha encontrado ningún cliente"
+
+#: languages/wepos.php:15 assets/js/frontend.js:61
+msgid "Search customer"
+msgstr "Buscar cliente"
+
+#: languages/wepos.php:42 assets/js/frontend.js:67 assets/js/frontend.js:82
+msgid "Add Product"
+msgstr "Añadir producto"
+
+#: languages/wepos.php:41 assets/js/frontend.js:67 assets/js/frontend.js:82
+msgid "Select Variations"
+msgstr "Seleccionar variaciones"
+
+#: languages/wepos.php:19 assets/js/frontend.js:61 assets/js/frontend.js:82
+msgid "to dismiss"
+msgstr "para descartar"
+
+#: languages/wepos.php:18 assets/js/frontend.js:61 assets/js/frontend.js:82
+msgid "to select"
+msgstr "para seleccionar"
+
+#: languages/wepos.php:17 assets/js/frontend.js:61 assets/js/frontend.js:82
+msgid "to navigate"
+msgstr "para navegar"
+
+#: languages/wepos.php:96 assets/js/frontend.js:82
+msgid "No product found"
+msgstr "No se ha encontrado ningún producto"
+
+#: languages/wepos.php:47 assets/js/frontend.js:67 assets/js/frontend.js:82
+msgid "Product"
+msgstr "Producto"
+
+#: languages/wepos.php:35 assets/js/frontend.js:28
+msgid "Please enter an email address for customer"
+msgstr "Por favor, introduce una dirección de correo electrónico del cliente"
+
+#: languages/wepos.php:98 assets/js/frontend.js:52
+msgid "Search product by typing"
+msgstr "Buscar producto tecleando"
+
+#: languages/wepos.php:97 assets/js/frontend.js:52
+msgid "Scan your product"
+msgstr "Escanea tu producto"
+
+#: languages/wepos.php:59 assets/js/frontend.js:34 assets/js/frontend.js:67
+#: assets/js/frontend.js:79
+msgid "Fee"
+msgstr "Cuota"
+
+#: languages/wepos.php:53 assets/js/frontend.js:34 assets/js/frontend.js:67
+#: assets/js/frontend.js:79
+msgid "Discount"
+msgstr "Descuento"
+
+#: languages/wepos.php:13 assets/js/bootstrap.js:61
+msgid "Please select an image,"
+msgstr "Por favor, selecciona una imagen"
+
+#: languages/wepos.php:12 assets/js/bootstrap.js:61
+msgid "Select an image"
+msgstr "Selecciona una imagen"
+
+#: languages/wepos.php:10 assets/js/admin.js:46
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
+#: languages/wepos.php:9 assets/js/admin.js:46
+msgid "Dismiss this notice."
+msgstr "Descartar este aviso."
+
+#: includes/Admin/Admin.php:32 languages/wepos.php:8 assets/js/admin.js:46
+msgid "Settings"
+msgstr "Ajustes"
+
+#: languages/wepos.php:6 assets/js/admin.js:43
+msgid "Active"
+msgstr "Activo"
+
+#: languages/wepos.php:5 assets/js/admin.js:40
+msgid "Close"
+msgstr "Cerrar"
+
+#: languages/wepos.php:4 assets/js/admin.js:40
+msgid "Clear"
+msgstr "Vaciar"
+
+#: languages/wepos.php:3 assets/js/admin.js:40
+msgid "Select Color"
+msgstr "Seleccionar color"
+
+#: languages/wepos.php:7 assets/js/admin.js:34 assets/js/admin.js:43
+msgid "Select"
+msgstr "Seleccionar"
+
+#: languages/wepos.php:11 assets/js/admin.js:34
+msgid "Choose your file"
+msgstr "Elige tu archivo"
+
+#. Author URI of the plugin
+#: wepos.php
+msgid "https://wedevs.com/"
+msgstr "https://wedevs.com/"
+
+#. Author of the plugin
+#: wepos.php
+msgid "weDevs"
+msgstr "weDevs"
+
+#. Description of the plugin
+#: wepos.php
+msgid "A beautiful and fast Point of Sale (POS) system for WooCommerce"
+msgstr "Un bonito y rápido sistema de punto de venta (POS) para WooCommerce"
+
+#. Plugin URI of the plugin
+#: wepos.php
+msgid "https://wedevs.com/wepos"
+msgstr "https://wedevs.com/wepos"
+
+#. Plugin Name of the plugin
+#: wepos.php
+msgid "wePOS - Point Of Sale (POS) for WooCommerce"
+msgstr "wePOS - Point Of Sale (POS) for WooCommerce"

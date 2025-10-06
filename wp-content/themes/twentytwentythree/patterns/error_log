@@ -1,0 +1,8 @@
+[18-Aug-2025 20:28:58 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function esc_html_x() in /home4/ferre152/public_html/wp-content/themes/twentytwentythree/patterns/hidden-404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home4/ferre152/public_html/wp-content/themes/twentytwentythree/patterns/hidden-404.php on line 13
+[19-Aug-2025 13:43:23 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function esc_html_x() in /home4/ferre152/public_html/wp-content/themes/twentytwentythree/patterns/hidden-404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home4/ferre152/public_html/wp-content/themes/twentytwentythree/patterns/hidden-404.php on line 13
