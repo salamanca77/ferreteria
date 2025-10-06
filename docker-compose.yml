@@ -42,11 +42,7 @@ services:
     image: phpmyadmin/phpmyadmin:latest
     container_name: phpmyadmin
     restart: always
-    ports:
-      # Expone phpMyAdmin en el puerto 8080 del host
-      # DEBES cambiar esto si el puerto 8080 ya está en uso en Dokploy/Hostinger.
-      # Usaremos 8080 como ejemplo.
-      - 8080:80
+
     environment:
       # ⚠️ CRÍTICO: Debe apuntar al nombre del servicio de la base de datos
       PMA_HOST: wp_db
