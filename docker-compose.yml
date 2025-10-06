@@ -18,6 +18,8 @@ services:
       wp_db:
         condition: service_healthy
     restart: unless-stopped
+    networks:
+      - default
 
   wp_db:
     image: mysql:8.4
@@ -37,30 +39,35 @@ services:
       timeout: 5s
       retries: 5
       start_period: 30s
+    networks:
+      - default
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin:latest
     container_name: phpmyadmin
     restart: always
-
+    labels:
+      # Etiqueta crucial para que Traefik se conecte al puerto interno 80
+      - "traefik.http.services.phpmyadmin.loadbalancer.server.port=80"
     environment:
-      # ⚠️ CRÍTICO: Debe apuntar al nombre del servicio de la base de datos
       PMA_HOST: wp_db
-
-      # ⚠️ OPCIONAL: Permite ingresar con el usuario y contraseña del servicio wp_db.
-      # PMA_USER: ferre152_bulcano 
-      # PMA_PASSWORD: xf809+W0gl_C
-
-      # Si utilizas root para acceder:
-      MYSQL_USER: ferre152_bulcano # <--- AGREGAR ESTA LÍNEA
-      MYSQL_PASSWORD: xf809+W0gl_C # <--- AGREGAR ESTA LÍNEA
-
+      # CORRECCIÓN: Usa MYSQL_ROOT_PASSWORD para que inicie sesión automáticamente con root
+      MYSQL_ROOT_PASSWORD: xf809+W0gl_C
     depends_on:
       wp_db:
         condition: service_healthy
-    # FIN DEL NUEVO SERVICIO
+    networks:
+      - default
 
-    # ... (Tu sección volumes: aquí, sin cambios) ...    
+# ---
 
 volumes:
   wp_data:
+  wp_uploads:
+    # Añadido para consistencia si lo usaste en el servicio wordpress
+
+    # ---
+
+networks:
+  default:
+    external: true
