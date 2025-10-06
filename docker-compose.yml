@@ -1,7 +1,6 @@
 services:
   wordpress:
     image: wordpress:latest
-    user: "33"
     volumes:
       - ./:/var/www/html
       - ../files/uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
