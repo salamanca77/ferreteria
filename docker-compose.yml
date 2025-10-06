@@ -41,9 +41,7 @@ services:
     image: phpmyadmin/phpmyadmin:latest
     container_name: phpmyadmin
     restart: always
-    labels:
-      # Etiqueta crucial para que Traefik se conecte al puerto interno 80
-      - "traefik.http.services.phpmyadmin.loadbalancer.server.port=80"
+
     environment:
       PMA_HOST: wp_db
       # CORRECCIÓN: Usa MYSQL_ROOT_PASSWORD para que inicie sesión automáticamente con root
