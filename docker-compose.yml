@@ -38,5 +38,33 @@ services:
       retries: 5
       start_period: 30s
 
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    container_name: phpmyadmin
+    restart: always
+    ports:
+      # Expone phpMyAdmin en el puerto 8080 del host
+      # DEBES cambiar esto si el puerto 8080 ya está en uso en Dokploy/Hostinger.
+      # Usaremos 8080 como ejemplo.
+      - 8080:80
+    environment:
+      # ⚠️ CRÍTICO: Debe apuntar al nombre del servicio de la base de datos
+      PMA_HOST: wp_db
+
+      # ⚠️ OPCIONAL: Permite ingresar con el usuario y contraseña del servicio wp_db.
+      # PMA_USER: ferre152_bulcano 
+      # PMA_PASSWORD: xf809+W0gl_C
+
+      # Si utilizas root para acceder:
+      MYSQL_USER: ferre152_bulcano # <--- AGREGAR ESTA LÍNEA
+      MYSQL_PASSWORD: xf809+W0gl_C # <--- AGREGAR ESTA LÍNEA
+
+    depends_on:
+      wp_db:
+        condition: service_healthy
+    # FIN DEL NUEVO SERVICIO
+
+    # ... (Tu sección volumes: aquí, sin cambios) ...    
+
 volumes:
   wp_data:
